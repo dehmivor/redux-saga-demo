@@ -1,0 +1,13 @@
+{
+  "name": "redux-saga-demo-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "client": "npm --prefix client start",
+    "server": "npm --prefix server start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
